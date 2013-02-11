@@ -12,6 +12,8 @@
   "jquery": true,
   "predef" : {
     "console" : true,
-    "define" : true
+    "alert": true,
+    "define" : true,
+    "performance": true
   }
 }
