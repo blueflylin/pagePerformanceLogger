@@ -29,5 +29,8 @@ default:
 						--mangle \
 						--comments '/^!\s/'
 
+	@echo "copying js to example folder"
+	@cp ${SCRIPT_NAME}.js ./example/js
+
 	@echo "* gzip test..."
 	@$(FILESIZE_CHECK)
